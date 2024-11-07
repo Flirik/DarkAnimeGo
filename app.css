@@ -1,0 +1,237 @@
+:root{
+	--gray-dark: rgba(52, 58, 64, .9)!important;
+    --blue: rgba(0, 123, 255, .9)!important;
+    --anime: rgba(255, 92, 87, .9)!important;
+    --indigo: rgba(102, 16, 242, .9)!important;
+    --purple: rgba(111, 66, 193, .9)!important;
+    --pink: rgba(232, 62, 140, .9)!important;
+    --red: rgba(220, 53, 69, .9)!important;
+    --orange: rgba(253, 126, 20, .9)!important;
+    --yellow: rgba(255, 193, 7, .9)!important;
+    --green: rgba(40, 167, 69, .9)!important;
+    --teal: rgba(32, 201, 151, .9)!important;
+    --cyan: rgba(23, 162, 184, .9)!important;
+    --white: rgba(255, 255, 255, .9)!important;
+    --gray: rgba(134, 142, 150, .9)!important;
+    --primary: rgba(255, 92, 87, .9)!important;
+    --secondary: rgba(134, 142, 150, .9)!important;
+    --success: rgba(40, 167, 69, .9)!important;
+    --info: rgba(23, 162, 184, .9)!important;
+    --warning: rgba(255, 193, 7, .9)!important;
+    --danger: rgba(220, 53, 69, .9)!important;
+    --light: rgba(248, 249, 250, .9)!important;
+    --dark: rgba(52, 58, 64, .9)!important;
+}
+
+::-webkit-scrollbar {
+	background-color: #2b2b2b!important;
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #383838!important;
+	border-radius: 5px;
+}
+
+#video-watch, #video-watch:before, #video-watch:after{
+	background-color: rgba(0, 0, 0, .5)!important;
+} 
+
+#wrap, body, .navbar.navbar-dark.bg-dark{
+	background-color: #2b2b2b!important;
+	color: rgba(255, 255, 255, .5)!important;
+}
+
+#wrap > div.d-none.d-sm-block, .navbar-dark.bg-dark{
+    box-shadow: 0px 0px 1px 0px black!important;
+    background-color: #2b2b2b !important;
+}
+
+header > nav > div > a > img{
+    opacity: .6;
+}
+
+.card, .list-group-item, .noUi-tooltip{
+    background-color: rgba(0, 0, 0, .1)!important;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, .2)!important;
+}
+
+.custom-select, .dropdown-menu, .text-link-gray.text-underline.loaded{
+	background-color: #383838!important;
+}
+
+a{
+    color: rgba(255, 92, 87, .7)!important;
+}
+
+::-webkit-input-placeholder, .text-truncate, .text-gray-dark-6, .text-gray-dark-5, .text-dark.text__underline__link, .text-gray-dark-2, .text-gray-dark-4, dd, .anime-synonyms, .description, .comment-text, .modal-btn, .people-info, .read-more-container, .anime-small-description, .anime-role, .character-voice, tr, td, .btn-review span{
+    color: rgba(255, 255, 255, .4)!important;
+}
+
+.last-update-title, .text-dark.text__underline__link:hover, .custom-control, .custom-control-description, .list-group-item, .b-tooltipped, .btn-o-4, .text-gray-dark-7, .video-player-toggle-item .video-player-toggle-item-name, .text-gray-dark-8, button[type='submit'], .text-link-gray, .card-title.m-0, .text-white .row {
+    color: rgba(255, 255, 255, .5)!important;
+}
+
+.nav-link, .btn.btn-primary, .video-player__active .video-player-toggle-item-name{
+    color: rgba(255, 255, 255, .8)!important;
+}
+
+.noUi-tooltip:after, .noUi-tooltip:before{
+    content: none!important;
+}
+
+.btn-filter {
+    border: none!important;
+}
+
+.card-body.bg-white, .popover-header, .card.border-0, .stats-graph{
+    background-color: transparent !important;
+}
+
+.card-header.type2:before{
+    background-color: rgba(255, 92, 87, .7) !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(248, 249, 250, .1) !important;
+}
+
+.text-gray-dark-2{
+    margin-bottom: -4px;
+}
+
+.btn-review, .modal-content {
+    background-color: #2c2c2c !important;
+    border-color: #1c1c1c !important;
+}
+
+.btn{
+    border: none !important;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    color: rgba(255, 255, 255, .4)!important;
+    background-color: rgba(255, 255, 255, .1)!important;
+}
+
+.read-more-container[data-read-more-init=true]::after {
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),#2c2c2c) !important;
+}
+
+.synonyms .read-more-link{
+    background-color: #383838!important;
+    border-radius: 5px !important;
+}
+
+.popover{
+    background-color: #2c2c2c!important;
+    color: rgba(255, 255, 255, .4)!important;
+}
+
+#un_comment_comment_body, input, select, textarea{
+    box-shadow: inset 0 0 3px 0 #5c5c5c !important;
+    background-color: rgba(0, 0, 0, .1) !important;
+    border: #1c1c1c solid 1px !important;
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+.form-control, .form-control input{
+    background-color: #1f1f1f !important;
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: none !important;
+}
+
+option{
+    background-color: #1f1f1f !important;
+}
+
+.search-form {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.result-search{
+    background-color: #1f1f1f !important;
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+.result-search-item {
+    border-top: 1px solid rgba(229, 229, 229, .7) !important;
+}
+
+#itemRatingBlock .itemRatingBlock .itemRatingForm{
+    background-color: #2b2b2b !important;
+}
+
+.watch-panel .online{
+    background-color: rgba(255, 255, 255, .9) !important;
+}
+
+.nav-tabs .nav-link:hover {
+    border-radius:  5px 5px 0 0 !important;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: rgba(0, 0, 0, .1) !important;
+    border-radius:  5px 5px 0 0 !important;
+}
+
+#sorter-sort, .sortable, .dropdown-menu.show{
+    background-color: #5c5c5c !important;
+    color: rgba(255, 255, 255, .6) !important;
+}
+
+.icon-play2{
+    color:  #666666;
+}
+
+.table-responsive2 tr{
+    border-top: #4e4e4e 2px solid;
+}
+
+.table-responsive2 thead{
+    border-bottom: 3px #4e4e4e solid;
+}
+
+.popover.bs-popover-bottom .arrow::after {
+    border-bottom-color: #2b2b2b !important;
+}
+
+.popover.bs-popover-left .arrow::after {
+    border-left-color: #2b2b2b !important;
+}
+
+.popover.bs-popover-right .arrow::after {
+    border-right-color: #2b2b2b !important;
+}
+
+.popover.bs-popover-top .arrow::after {
+    border-top-color: #2b2b2b !important;
+}
+
+.indicator.dropped::before, .graph.dropped{
+    background-color: #882a33bb !important;
+}
+
+.indicator.onHold::before, .graph.onHold{
+    background-color: #a8a8a8 !important;
+}
+
+.indicator.watching::before, .graph.watching{
+    background-color: #2e6c77d0 !important;
+}
+
+.indicator.completed::before, .graph.completed{
+    background-color: #367446e1 !important;
+}
+
+.indicator.planned::before, .graph.planned{
+    background-color: #a5872fc0 !important;
+}
+
+.soc.soc-twitter, a[href='https://animego.org/connect/facebook']{
+    display: none !important;
+}

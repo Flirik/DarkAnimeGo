@@ -1,0 +1,17 @@
+{
+    "author": "Flirik",
+    "manifest_version": 3,
+    "name": "Dark AnimeGO",
+    "version": "1.0",
+    "description": "Тёмная тема для AnimeGO",
+    "icons": {
+	    "128": "128.png"
+    },
+    "content_scripts": [
+	    {
+ 		   "matches": [ "https://animego.org/*" ],
+	 	   "js": [ "app.js" ],
+		   "css": [ "app.css" ]
+	    }
+    ]	
+}
